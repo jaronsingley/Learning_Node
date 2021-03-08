@@ -1,4 +1,4 @@
-function getRandoSeed(length) {
+const getRandoSeed = (length) => {
     var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ9';
     var result = '';
     for ( var i = 0; i < length; i++ ) {
@@ -6,4 +6,5 @@ function getRandoSeed(length) {
     }
     return result;
 }
-console.log(getRandoSeed(81))
+
+export default getRandoSeed

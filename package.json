@@ -1,0 +1,10 @@
+{
+    "type": "module",
+    "dependencies": {
+	"@iota/core": "^1.0.0-beta.30",
+	"@iota/extract-json": "^1.0.0-beta.30",
+	"@iota/mam.js": "^1.0.0-beta.10",
+	"crypto-random-string": "^3.3.1"
+    }
+}
+
